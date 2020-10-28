@@ -1,23 +1,23 @@
-13:24:32.170 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-13:24:32.907 request:
+10:19:56.210 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:19:56.965 request:
 1 > GET https://hfp-recoveries.azureedge.net/
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: hfp-recoveries.azureedge.net
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 
-13:24:33.413 response time in milliseconds: 501.64
+10:19:59.684 response time in milliseconds: 2714.22
 1 < 200
 1 < Accept-Ranges: bytes
 1 < Content-Type: text/html;
-1 < Date: Mon, 12 Oct 2020 12:24:34 GMT
+1 < Date: Tue, 13 Oct 2020 09:19:59 GMT
 1 < ETag: "0x8D85ADE43C69645"
 1 < Last-Modified: Thu, 17 Sep 2020 07:49:53 GMT
 1 < Server: Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0
 1 < Transfer-Encoding: chunked
-1 < X-Azure-Ref: 0AkuEXwAAAACyQwkqPhIsRqURyh0t0FC3TUFOMzBFREdFMDMwOQBhZWVjNWI3Ni03NDE0LTQ4OWQtYTYzNi05MTc3NjRkYTE3MWE=
-1 < X-Azure-Ref-OriginShield: 0AkuEXwAAAACTbJq9HnW0SIn83GRjCYbxTE9OMjFFREdFMTUxMwBhZWVjNWI3Ni03NDE0LTQ4OWQtYTYzNi05MTc3NjRkYTE3MWE=
-1 < X-Cache: TCP_REMOTE_HIT
+1 < X-Azure-Ref: 0QHGFXwAAAAABZRe684IkRaIk4eJl9YLeTUFOMzBFREdFMDcxOABhZWVjNWI3Ni03NDE0LTQ4OWQtYTYzNi05MTc3NjRkYTE3MWE=
+1 < X-Azure-Ref-OriginShield: 0Pj6EXwAAAAAi3xjoFsteQYfr97lYMq3/TE9OMjFFREdFMDEyMgBhZWVjNWI3Ni03NDE0LTQ4OWQtYTYzNi05MTc3NjRkYTE3MWE=
+1 < X-Cache: TCP_HIT
 1 < x-ms-request-id: de41875c-001e-0047-738b-a0457f000000
 1 < x-ms-version: 2018-03-28
 <!doctype html>
@@ -47,8 +47,8 @@
 </html>
 
 
-13:24:33.458 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
-13:24:33.459 [print] <!doctype html>
+10:19:59.758 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+10:19:59.759 [print] <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -73,4 +73,6 @@
   </div>
 <script src="runtime-es2015.3771a0676ead7e51b15f.js" type="module"></script><script src="runtime-es5.3771a0676ead7e51b15f.js" nomodule defer></script><script src="polyfills-es5.177e85a9724683782539.js" nomodule defer></script><script src="polyfills-es2015.f332a089ad1600448873.js" type="module"></script><script src="scripts.d6be4794e114a559459a.js" defer></script><script src="main-es2015.c5faa899f59e132f41ac.js" type="module"></script><script src="main-es5.c5faa899f59e132f41ac.js" nomodule defer></script></body>
 </html>
+
+ml>
 
