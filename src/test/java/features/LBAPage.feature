@@ -1,13 +1,14 @@
-// to be contd
+# unfinished
 Feature: Display LBA Page
   
   Background: 
-    * url 'https://hfp-recoveries.azureedge.net'
-
+    * url 'https://dc.services.visualstudio.com/v2/track'
 
     Scenario: Get LBA page
     
-    Given path '/app/lba-instruction'
-      And header Authorization = 'Bearer eyJraWQiOiJkZWZhdWx0IiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJodHRwczpcL1wvYXBpLnBpbmdvbmUuZXUiLCJzdWIiOiI0M2VkM2FjMC1hMmQ1LTQ5NDAtODIzYS1kOWI2NDU1YTNkYzgiLCJvcmciOiJkOTI4ZmY4OC1lZjQ4LTQyMWUtYjNkNy1hYjQzMGFkMTI1MzciLCJzY29wZSI6InBob25lIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucGluZ29uZS5ldVwvYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwXC9hcyIsImV4cCI6MTYwMzk0NTcxMywiZW52IjoiYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwIiwiaWF0IjoxNjAzOTQyMTEzLCJjbGllbnRfaWQiOiJhZmViZDRhNC0yN2Q4LTRlZjAtYWMzMS0wN2JjOTJjMGVkYWQiLCJzaWQiOiIyMDg1YTQzYy1lNTg0LTQxMmQtYTU4My0zNjM1ZGEyMzNhOTYifQ.awaY9C-YDsmWWjfL7Ka7ccFdTnJAcWVKQdCSWw4S5fRYvNhEk-IRt_wG7tYtZIOLhqSnIM-yRp6oN9YcCeVvqvBB4jb1D_LrjGjoxE3i-10g134t4OR8J9Hfl6GAcJ831M3hoGvTd94Vj3SdF7gWvxCqRqzJ8ELGd4Fk1yyrtyvZQ9HmaKOmwVubUL6KJ-mkl1TNOYmFiadt0UhO3drDxaYoJIETYmQV2agXvzooUSyd_WpZFcFC_p5qW4gSxWn8O2qWS6pL0zYwvWBLIvG91UHL3jPuvb6aTVc0pJe5zFWQOjTKVBMFnVBPtNXeEgK0hM70lo-vxsg_XwclKDRzbg'
-      When method Get
+    Given path '/v2/track'
+      And header content-type = 'application/json'
+      And header origin = 'https://hfp-recoveries.azureedge.net'
+      And request '{"time":"2020-10-29T11:20:36.457Z","iKey":"44996ec0-47df-40b3-8a89-89c3b98336cd","name":"Microsoft.ApplicationInsights.44996ec047df40b38a8989c3b98336cd.Pageview","tags":{"ai.user.id":"vzF7P","ai.session.id":"G40b6","ai.device.id":"browser","ai.device.type":"Browser","ai.operation.name":"/app/lba-instruction","ai.operation.id":"d16493ce44e241ddb095bc59f5dcfeee","ai.internal.sdkVersion":"javascript:2.5.8","ai.internal.snippet":"-","ai.user.accountId":"ckdikhagl000001l1goh684ne"},"data":{"baseType":"PageviewData","baseData":{"ver":2,"name":"HFPortal - LBA","url":"https://hfp-recoveries.azureedge.net/app/lba-instruction","duration":"00:00:00.000","properties":{"refUri":"https://hfp-recoveries.azureedge.net/"},"measurements":{"duration":0},"id":"d16493ce44e241ddb095bc59f5dcfeee"}}}'
+      When method Post
       Then status 200
