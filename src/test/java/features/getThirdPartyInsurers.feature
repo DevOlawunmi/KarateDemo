@@ -1,5 +1,6 @@
 # The way an API works is through a contract. First there is a request which includes an endpoint, a header and a body
   # The service responds with its own set of headers, body and also a status code
+  #Parameters, Output, InterOp, Security, Errors and Data
 Feature: Get Third Party Insurers
   Background:
     * url 'https://hfportaldev.azure-api.net/'
