@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/olawu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/KarateDemo/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KarateDemo/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604123738823</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Notes added, intro to API testing">
+      <created>1604194220725</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604194220726</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +240,8 @@
     <MESSAGE value="Notes added" />
     <MESSAGE value="Notes added to test runner" />
     <MESSAGE value="Notes added, intro to API testing?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notes added, intro to API testing?" />
+    <MESSAGE value="Notes added, intro to API testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes added, intro to API testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -242,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602697221795" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604123738339">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604194220106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604123738339" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604194220106" />
     <state width="1493" height="304" key="GridCell.Tab.0.bottom" timestamp="1603982972483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,14 +288,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603882792491" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604123741528">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604194224408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604123741528" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1604193407944">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604194224408" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1604291838636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604193407944" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604291838636" />
     <state x="209" y="109" key="new project wizard" timestamp="1602585729452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
