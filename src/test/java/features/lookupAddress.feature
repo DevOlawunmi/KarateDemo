@@ -1,0 +1,13 @@
+Feature: Get address details
+  Background:
+    * url 'https://hfportaldev.azure-api.net'
+
+  Scenario: Get Address Details
+
+    Given path '/hf-recoveries/addressLookup'
+    And header Content-type = 'application/json'
+    And header Authorization = 'Bearer eyJraWQiOiJkZWZhdWx0IiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJodHRwczpcL1wvYXBpLnBpbmdvbmUuZXUiLCJzdWIiOiI0M2VkM2FjMC1hMmQ1LTQ5NDAtODIzYS1kOWI2NDU1YTNkYzgiLCJvcmciOiJkOTI4ZmY4OC1lZjQ4LTQyMWUtYjNkNy1hYjQzMGFkMTI1MzciLCJzY29wZSI6InBob25lIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucGluZ29uZS5ldVwvYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwXC9hcyIsImV4cCI6MTYwNDM3NjQ2OCwiZW52IjoiYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwIiwiaWF0IjoxNjA0MzcyODY4LCJjbGllbnRfaWQiOiJhZmViZDRhNC0yN2Q4LTRlZjAtYWMzMS0wN2JjOTJjMGVkYWQiLCJzaWQiOiJiNTE5M2RjYy0xNTQwLTQyNzEtYmQ0NC01NGMwZjMzYzhmMWMifQ.T5wl5TIKYJWcI_4Skr0bM8ydhnbgshQBu2GQGhjBDNJFInAVr94g311uF9wfWAjulv_PMWEOVwFvfR92KJJi99tFaLLA8YqUBU1Q2E9E_m8zlhqM7vsUp-OtGjSPlGbjAOGPGEI_Fo6SpvZt9p5WxEL5PS4qVwc9hdBKyB6-whdOvqUf98j4wRmFJ6SL4sHvFQ8kd6z0LtRL6J8DrbRvJrKToFc_KSAXUAboosbQ5BDGlvHopjX2TdF0VmiJ767l4ZqPmKDGwgWP3FmqXBjfNOzA3kYhQr9YrYkRObSAuZlooFsGYOJkt6rYvdPGLo72-mxWVPShVoj4HVLgOy7fsA'
+    And param postalCode = 'OL4 1BY'
+    And param countryCode = 'GB'
+    When method GET
+    Then status 200
