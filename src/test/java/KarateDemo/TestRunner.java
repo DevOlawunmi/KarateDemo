@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @CucumberOptions(
-        features = {"features/userDetails.feature"}
+        features = {"src/test/java/features"}
 )
 
 
