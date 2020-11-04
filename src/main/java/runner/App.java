@@ -1,4 +1,4 @@
-package KarateDemo;
+package runner;
 
 /**
  * Hello world!
