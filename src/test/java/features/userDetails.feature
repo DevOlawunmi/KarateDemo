@@ -1,4 +1,4 @@
-# This test sends an API call to validate the details of the logged in user
+# This test sends an API call to validate the details of the logged in \user
   # the variable here is the JWT
 Feature: User Details
 

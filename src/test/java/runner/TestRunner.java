@@ -12,6 +12,7 @@ another API call being made from the portal.
  */
 import com.intuit.karate.junit4.Karate;
 import cucumber.api.CucumberOptions;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 
 
@@ -23,6 +24,9 @@ import org.junit.runner.RunWith;
 
 public class TestRunner
 {
-
+@Before
+    public static void before(){
+    System.setProperty("karate.env", "STG");
+}
 
 }
