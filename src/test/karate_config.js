@@ -11,13 +11,13 @@ function() {
     var config = {
     env: env,
 
-    AM_USERNAME: 'devuser',
-    AM_PASSWORD: 'devpass',
-    AM_HOST: 'https://hfp-recoveries.'+env+'.azureedge.net',
-    AM_AUTHENTICATE_PATH: '/am/json/realms/root/authenticate',
+    AM_USERNAME: 'ola.ajibola@h-f.co.uk',
+    AM_PASSWORD: '@Fisherman01',
+    AM_HOST: 'https://auth.pingone.eu.'+env+'.azureedge.net',
+    AM_AUTHENTICATE_PATH: '/bfc2e611-8a03-48ab-bdd8-8b997ba52560/as/token',
 
-    IDM_USERNAME: 'devuser',
-    IDM_PASSWORD: 'devpass',
+    IDM_USERNAME: 'ola.ajibola@h-f.co.uk',
+    IDM_PASSWORD: '@Fisherman01',
     IDM_HOST: 'https://idm.'+env+'.example.net',
     IDM_MANAGED_USER_PATH: '/idm/managed/user',
     };
