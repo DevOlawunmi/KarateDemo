@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/karate_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/karate_config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,26 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber java.Scenario: Authentication test">
+    <configuration name="Scenario: Authentication test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^Authentication test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Authentication test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Authentication test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Get Address Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" />
@@ -73,25 +92,6 @@
       <option name="NAME_FILTER" value="^Get LBA page$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get LBA page$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Get LBA page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Get Third Party Insurers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/getThirdPartyInsurers.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^Get Third Party Insurers$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Third Party Insurers$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Third Party Insurers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Authentication test" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Get Address Details" />
         <item itemvalue="Cucumber java.Scenario: Get Vehicle Details" />
         <item itemvalue="Cucumber java.Scenario: Get LBA page" />
-        <item itemvalue="Cucumber java.Scenario: Get Third Party Insurers" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604643933247</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Config file added although not yet correct">
+      <created>1604915571672</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604915571672</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,7 +311,8 @@
     <MESSAGE value="Test runner feature file updated" />
     <MESSAGE value="Test runner folder updated" />
     <MESSAGE value="Config file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config file added" />
+    <MESSAGE value="Config file added although not yet correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config file added although not yet correct" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -323,26 +331,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1604462021307" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604643932613">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604915571072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604643932613" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1604915218461">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604915571072" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1605017761198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604915218461" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1604915218461">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605017761198" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1605017761197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604915218461" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1604915218461">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605017761197" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1605017761197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604915218461" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1604915218461">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605017761197" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1605017761198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604915218461" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605017761198" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603882792491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -359,10 +367,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603882792491" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604643936299">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604915635008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604643936299" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604915635008" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1604914356353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
