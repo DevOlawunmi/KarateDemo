@@ -11,3 +11,4 @@ Feature: Get vehicle details
     And request '{"vrn": "FP07EOC"}'
     When method POST
     Then status 200
+    And print response
