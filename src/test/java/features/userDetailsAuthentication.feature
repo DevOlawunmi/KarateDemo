@@ -13,7 +13,7 @@ Feature: API Authentication
       And form field redirect_uri = 'https://hfp-recoveries.azureedge.net/auth/redirect'
       And form field code = '0e1fb294-7b3f-4fed-9778-4120fb3a613a'
       When method POST
-     # Then status 200
+      Then status 200
       And header X-CSRF-TOKEN = response
 
       * def accessToken = response.access_token
