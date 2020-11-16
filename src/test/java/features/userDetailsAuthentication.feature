@@ -10,11 +10,11 @@ Feature: API Authentication
       And form field email = 'ola.ajibola@h-f.co.uk'
       And form field password = '@Fisherman01'
       And form field client_id = 'afebd4a4-27d8-4ef0-ac31-07bc92c0edad'
-      And form field redirect_uri = 'https://hfp-recoveries.azureedge.net/auth/redirect'
+      And form field redirect_uri = 'https://localhost:8080/api/redirect'
       And form field code = '0e1fb294-7b3f-4fed-9778-4120fb3a613a'
       When method POST
       Then status 200
-      And header X-CSRF-TOKEN = response
+      And header X-CSRF-TOKEN = respon
 
       * def accessToken = response.access_token
 
