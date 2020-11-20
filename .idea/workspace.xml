@@ -45,26 +45,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Authentication">
-    <configuration name="Scenario: Authentication test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^Authentication test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Authentication test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Authentication test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber java.Scenario: Verify the user details using OAuth2 Implicit grant type">
     <configuration name="Scenario: Authentication" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
@@ -93,6 +74,25 @@
       <option name="NAME_FILTER" value="^Get Vehicle Details$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Vehicle Details$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Get Vehicle Details" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the user details using OAuth2 Implicit grant type" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^Verify the user details using OAuth2 Implicit grant type$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify the user details using OAuth2 Implicit grant type$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the user details using OAuth2 Implicit grant type" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -141,15 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: user info" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="NAME_FILTER" value="^user info$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^user info$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user info" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Verify the user details using OAuth2 Implicit grant type" />
+        <item itemvalue="Cucumber java.Scenario: user info" />
         <item itemvalue="Cucumber java.Scenario: Authentication" />
         <item itemvalue="Cucumber java.Scenario: html url encoded form submit - manually forming the request / NOT using 'form field'" />
         <item itemvalue="Cucumber java.Scenario: html url encoded form submit - post" />
-        <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Scenario: Authentication test" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605382167730</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Just breathe">
+      <created>1605538903788</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605538903788</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,7 +364,8 @@
     <MESSAGE value="Auth added, not working but I'll get there. still hopeful" />
     <MESSAGE value="Auth added, not working but I'll get there o. still hopeful" />
     <MESSAGE value="Jesus take the wheel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jesus take the wheel" />
+    <MESSAGE value="Just breathe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just breathe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -380,26 +388,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1605382166921">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1605538903172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605382166921" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1605493909916">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605538903172" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1605858856316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605493909916" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1605493909913">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605858856316" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1605858856316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605493909913" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1605493909910">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605858856316" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1605858856316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605493909910" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1605493909915">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605858856316" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1605858856316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605493909915" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605858856316" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603882792491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -420,18 +428,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605378023559" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1605382180074">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1605538908181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605382180074" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1605493732508">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605538908181" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1605772541768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605493732508" />
-    <state x="209" y="109" key="new project wizard" timestamp="1602585729452">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605772541768" />
+    <state x="209" y="68" key="new project wizard" timestamp="1605772581994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602585729452" />
+    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605772581994" />
     <state x="521" y="335" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1603688632325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
