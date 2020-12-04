@@ -12,6 +12,7 @@ Feature: Implicit Auth
       When method POST
       Then status 401
       * print response
+      And def tokenType = response.token_type
       * def accessToken = response.access_token
       * header Authorization = 'Bearer' + token
 
