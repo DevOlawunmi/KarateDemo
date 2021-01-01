@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/LBAPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LBAPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/getThirdPartyInsurers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/getThirdPartyInsurers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/getVehicleDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/getVehicleDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/searchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/searchCases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +49,33 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Verify the user details using OAuth2 Implicit grant type">
-    <configuration name="Scenario: Authentication" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Get LBA page">
+    <configuration name="Feature: getVehicleDetails" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/getVehicleDetails.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: getVehicleDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Get LBA page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LBAPage.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Authentication$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Authentication$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Authentication" />
+      <option name="NAME_FILTER" value="^Get LBA page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get LBA page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get LBA page" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -102,44 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: html url encoded form submit - manually forming the request / NOT using 'form field'" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/signin.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^html url encoded form submit \- manually forming the request \/ NOT using \'form field\'$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^html url encoded form submit \- manually forming the request \/ NOT using \'form field\'$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: html url encoded form submit - manually forming the request / NOT using 'form field'" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: html url encoded form submit - post" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/signin.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^html url encoded form submit \- post$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^html url encoded form submit \- post$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: html url encoded form submit - post" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: user info" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetailsAuthentication.feature" />
@@ -159,13 +143,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/getThirdPartyInsurers.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Get LBA page" />
+        <item itemvalue="Cucumber java.Scenario: " />
+        <item itemvalue="Cucumber java.Feature: getVehicleDetails" />
         <item itemvalue="Cucumber java.Scenario: Verify the user details using OAuth2 Implicit grant type" />
         <item itemvalue="Cucumber java.Scenario: user info" />
-        <item itemvalue="Cucumber java.Scenario: Authentication" />
-        <item itemvalue="Cucumber java.Scenario: html url encoded form submit - manually forming the request / NOT using 'form field'" />
-        <item itemvalue="Cucumber java.Scenario: html url encoded form submit - post" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607060968298</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Client cred oauth fail. To be updated">
+      <created>1609400367088</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609400367088</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -380,7 +390,8 @@
     <MESSAGE value="Just breathe" />
     <MESSAGE value="Client cred oauth" />
     <MESSAGE value="Client cred oauth fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Client cred oauth fail" />
+    <MESSAGE value="Client cred oauth fail. To be updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client cred oauth fail. To be updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -403,26 +414,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607060967600">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1609400366028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607060967600" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1607061773326">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609400366028" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1609481419121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607061773326" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1607061773326">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609481419121" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1609481419121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607061773326" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1607061773326">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609481419121" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1609481419121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607061773326" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1607061773326">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609481419121" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1609481419121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607061773326" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609481419121" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603882792491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -443,14 +454,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605378023559" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607060971101">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1609400372190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607060971101" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607142021024">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609400372190" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1609478693571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607142021024" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1609478693571" />
     <state x="209" y="68" key="new project wizard" timestamp="1605772581994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

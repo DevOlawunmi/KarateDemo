@@ -1,7 +1,7 @@
-Feature: Implicit Auth
+Feature: Auth
 
   Background:
-    * url 'https://auth.pingone.eu/bfc2e611-8a03-48ab-bdd8-8b997ba52560'
+    * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
     Scenario: Verify the user details using OAuth2 Implicit grant type
       
