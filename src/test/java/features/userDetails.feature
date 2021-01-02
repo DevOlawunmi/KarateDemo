@@ -3,11 +3,13 @@
 Feature: User Details
 
   Background:
-    * url 'https://auth.pingone.eu/bfc2e611-8a03-48ab-bdd8-8b997ba52560/as/userinfo'
+    * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
   Scenario: Get user details
 
- Given header Authorization = 'Bearer eyJraWQiOiJkZWZhdWx0IiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJodHRwczpcL1wvYXBpLnBpbmdvbmUuZXUiLCJzdWIiOiI0M2VkM2FjMC1hMmQ1LTQ5NDAtODIzYS1kOWI2NDU1YTNkYzgiLCJvcmciOiJkOTI4ZmY4OC1lZjQ4LTQyMWUtYjNkNy1hYjQzMGFkMTI1MzciLCJzY29wZSI6InBob25lIG9wZW5pZCBwcm9maWxlIGVtYWlsIiwiaXNzIjoiaHR0cHM6XC9cL2F1dGgucGluZ29uZS5ldVwvYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwXC9hcyIsImV4cCI6MTYwMzk0NTcxMywiZW52IjoiYmZjMmU2MTEtOGEwMy00OGFiLWJkZDgtOGI5OTdiYTUyNTYwIiwiaWF0IjoxNjAzOTQyMTEzLCJjbGllbnRfaWQiOiJhZmViZDRhNC0yN2Q4LTRlZjAtYWMzMS0wN2JjOTJjMGVkYWQiLCJzaWQiOiIyMDg1YTQzYy1lNTg0LTQxMmQtYTU4My0zNjM1ZGEyMzNhOTYifQ.awaY9C-YDsmWWjfL7Ka7ccFdTnJAcWVKQdCSWw4S5fRYvNhEk-IRt_wG7tYtZIOLhqSnIM-yRp6oN9YcCeVvqvBB4jb1D_LrjGjoxE3i-10g134t4OR8J9Hfl6GAcJ831M3hoGvTd94Vj3SdF7gWvxCqRqzJ8ELGd4Fk1yyrtyvZQ9HmaKOmwVubUL6KJ-mkl1TNOYmFiadt0UhO3drDxaYoJIETYmQV2agXvzooUSyd_WpZFcFC_p5qW4gSxWn8O2qWS6pL0zYwvWBLIvG91UHL3jPuvb6aTVc0pJe5zFWQOjTKVBMFnVBPtNXeEgK0hM70lo-vxsg_XwclKDRzbg'
+    Given path '/userinfo'
+ And header Content-type = 'application/json'
+ And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
  When method GET
  Then status 200
 
