@@ -6,8 +6,8 @@ Feature: Display LBA Page
 
     Scenario: Get LBA page
     
-    Given path '/lba'
+    Given path '/app/lba'
       And header content-type = 'application/json'
       And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-      When method post
+      When method get
       Then status 200
