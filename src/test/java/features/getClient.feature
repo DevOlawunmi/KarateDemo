@@ -1,9 +1,9 @@
-Feature: Auth
+Feature: Get client
 
   Background:
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
-    Scenario: Verify the user details using OAuth2 Implicit grant type
+    Scenario: Get client
       
       Given path '/client'
       And header Content-type = 'application/json'
