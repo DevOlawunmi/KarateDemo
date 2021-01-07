@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/submitLBAInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/LBAPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LBAPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/userDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/userDetails.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,15 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Get LBA">
-    <configuration name="Scenario: Get Address Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Submit LBA">
+    <configuration name="Feature: userDetails" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/userDetails.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Get Address Details$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Address Details$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Address Details" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: userDetails" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -141,15 +142,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Send LBA chaser" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Submit LBA" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/chase.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/submitLBAInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Send LBA chaser$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Send LBA chaser$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Send LBA chaser" />
+      <option name="NAME_FILTER" value="^Submit LBA$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Submit LBA" />
         <item itemvalue="Cucumber java.Scenario: Get LBA" />
-        <item itemvalue="Cucumber java.Scenario: Get LBA page" />
-        <item itemvalue="Cucumber java.Scenario: Send LBA chaser" />
-        <item itemvalue="Cucumber java.Scenario: Get Address Details" />
+        <item itemvalue="Cucumber java.Feature: userDetails" />
         <item itemvalue="Cucumber java.Scenario: Get user details" />
+        <item itemvalue="Cucumber java.Scenario: Get LBA page" />
       </list>
     </recent_temporary>
   </component>
@@ -410,11 +411,17 @@
       <option name="project" value="LOCAL" />
       <updated>1609732624123</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="lba fail">
+      <created>1609831615513</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1609831615513</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Notes added to test runner" />
     <MESSAGE value="Notes added, intro to API testing?" />
     <MESSAGE value="Notes added, intro to API testing" />
     <MESSAGE value="More notes on API testing" />
@@ -439,7 +446,8 @@
     <MESSAGE value="chase lba feature added" />
     <MESSAGE value="address lookup updated. pass" />
     <MESSAGE value="get user details feature pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="get user details feature pass" />
+    <MESSAGE value="lba fail" />
+    <option name="LAST_COMMIT_MESSAGE" value="lba fail" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -462,26 +470,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1609732623499">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1609831614349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609732623499" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1609820914710">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609831614349" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1609993263734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609820914710" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1609820914694">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609993263734" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1609993263734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609820914694" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1609820914694">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609993263734" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1609993263734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609820914694" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1609820914694">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609993263734" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1609993263734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609820914694" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609993263734" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609736300315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -502,10 +510,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605378023559" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1609732633194">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1609831618503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609732633194" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609831618503" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1609747666171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
