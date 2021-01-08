@@ -9,7 +9,7 @@ Feature: Submit LBA
     Given path '/LBA'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    * def payload = {"client":{"handlerName":"O Ajibola","handlerTel":"0161667553767890","handlerEmail":"Ola.Ajibola@h-f.co.uk","overrideHandlerDetails":false,"reference":"ASPD2230977854","bacs":"ZPC Vlocity"},"claimantAndAccident":{"comfirmOutlayOver10K":false,"accidentDate":"2019-06-02T23:00:00.000Z","policyholderTitle":"Mrs","policyholderFirstName":"Daisy","policyholderLastName":"Martins","outlayAmount":905.66},"tpDetails":{"title":"Mr","firstName":"Basil","lastName":"Thyme"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Aviva UK Insurance","reference":"AVI8976","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN68PKF","make":"VOLKSWAGEN","model":"PASSAT GT TDI S-A"}}}
+    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"5467","bacs":"Zeus"},"claimantAndAccident":{"comfirmOutlayOver10K":false,"accidentDate":"2019-12-22T00:00:00.000Z","policyholderTitle":"Mr","policyholderFirstName":"A","policyholderLastName":"D","outlayAmount":5656,"liabilityDecision":"Non Fault","liabilityApportionment":0},"tpDetails":{"title":"Mr","firstName":"D","lastName":"F"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"AXA INSURANCE UK PLC","reference":"5566","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN60PKF","make":"CITROEN","model":"C4 VTR+ E-HDI S-A"}}}
     And request payload
     When method post
     Then status 200

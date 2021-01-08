@@ -8,6 +8,6 @@ Feature: Get vehicle details
     Given path '/vrnlookup'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    And request '{"vrn": "FP07EOC"}'
+    And request '{"vrn": "SB10WCG"}'
     When method POST
     Then status 200

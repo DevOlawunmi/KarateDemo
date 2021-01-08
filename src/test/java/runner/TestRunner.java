@@ -18,15 +18,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @CucumberOptions(
-        features = {"src/test/java/features"}
+        features = {"src/test/java/features/getClient.feature", "src/test/java/features/getVehicleDetails.feature", "src/test/java/features/lookupAddress.feature", "src/test/java/features/searchCases.feature"}
 )
 
 
 public class TestRunner
 {
-@Before
-    public static void before(){
-    System.setProperty("karate.env", "STG");
-}
 
 }
+
+
