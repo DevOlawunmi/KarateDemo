@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Covert">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: Covert" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/convert.feature" />
@@ -157,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Covert" />
         <item itemvalue="Cucumber java.Scenario: Send LBA chaser" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA" />
         <item itemvalue="Cucumber java.Scenario: Get LBA" />
       </list>
@@ -440,11 +441,17 @@
       <option name="project" value="LOCAL" />
       <updated>1610169674634</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="user details feature file updated">
+      <created>1610171869990</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610171869990</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Karate Demo success" />
     <MESSAGE value="Test runner feature file updated" />
     <MESSAGE value="Test runner folder updated" />
     <MESSAGE value="Config file added" />
@@ -469,7 +476,8 @@
     <MESSAGE value="Submit full instruction for LV feature added" />
     <MESSAGE value="Testrunner updated" />
     <MESSAGE value="convert feature added" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert feature added" />
+    <MESSAGE value="user details feature file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="user details feature file updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -492,26 +500,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610169673907">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610171869432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610169673907" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1610168846504">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610171869432" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1610256628314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610168846504" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1610168846503">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610256628314" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1610256628313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610168846503" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1610168846503">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610256628313" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1610256628313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610168846503" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1610168846503">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610256628313" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1610256628313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610168846503" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610256628313" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609736300315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -532,14 +540,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605378023559" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610169677170">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610171874344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610169677170" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610164311406">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610171874344" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610255784338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610164311406" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610255784338" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
