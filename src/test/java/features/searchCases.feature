@@ -18,7 +18,7 @@ Feature: Search cases
     Given path '/searchCases'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    And param ourReference = '189611/1622'
+    And param yourReference = '189611/1622'
     When method Get
     Then status 200
 
