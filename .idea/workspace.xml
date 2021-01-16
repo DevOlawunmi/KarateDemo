@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/getVehicleDetails.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/chaser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/chaser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/convert.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/convert.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/getClient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/getClient.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/getThirdPartyInsurers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/getThirdPartyInsurers.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/getVehicleDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/lookupAddress.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/searchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/searchCases.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/submitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/userDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/userDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,18 +42,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/runner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\Karate\src\test\java\runner" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\Karate\src\test\java\runner" />
       <recent name="C:\workspace\Karate\src\test\java\features" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Karate\src\test\java\features" />
+      <recent name="C:\workspace\Karate\src\test\java\runner" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">
@@ -477,11 +469,17 @@
       <option name="project" value="LOCAL" />
       <updated>1610340349402</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Test runner class updated">
+      <created>1610687625927</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610687625927</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Config file added" />
     <MESSAGE value="Config file added although not yet correct" />
     <MESSAGE value="Auth added" />
     <MESSAGE value="Auth added, not working but I'll get there" />
@@ -506,7 +504,8 @@
     <MESSAGE value="user details feature file updated" />
     <MESSAGE value="Notes added to test runner" />
     <MESSAGE value="Cucumber reporting dependency added to pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber reporting dependency added to pom.xml" />
+    <MESSAGE value="Test runner class updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test runner class updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -533,26 +532,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610340348737">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610687625291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610340348737" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1610686675105">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610687625291" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1610777762815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610686675105" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1610686675105">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610777762815" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1610777762815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610686675105" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1610686675105">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610777762815" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1610777762815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610686675105" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1610686675105">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610777762815" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1610777762815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610686675105" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610777762815" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -573,14 +572,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610340351963">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610687629703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610340351963" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610680400422">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610687629703" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610777325485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610680400422" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610777325485" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

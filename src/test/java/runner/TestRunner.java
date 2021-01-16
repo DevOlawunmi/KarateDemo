@@ -40,7 +40,7 @@ public class TestRunner
     public void testParallel() {
         Results results = Runner.parallel(getClass(), 5);
         generateReport(results.getReportDir());
-        
+
     }
 
 
