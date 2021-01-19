@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LBAPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +57,16 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner.testParallel">
-    <configuration name="Scenario: Display all of the logged in user's cases" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, Non fault, private PH and TP">
+    <configuration name="Scenario: Full Instruction, Non fault, private PH and TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Display all of the logged in user\'s cases$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Display all of the logged in user\'s cases$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Display all of the logged in user's cases" />
+      <option name="NAME_FILTER" value="^Full Instruction\, Non fault\, private PH and TP$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Non fault\, private PH and TP$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Non fault, private PH and TP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, Non fault, private PH and TP" />
         <item itemvalue="JUnit.TestRunner.testParallel" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: User cannot search for a case without reference" />
         <item itemvalue="Cucumber java.Scenario: User cannot search for a case using invalid reference" />
-        <item itemvalue="Cucumber java.Scenario: Display all of the logged in user's cases" />
       </list>
     </recent_temporary>
   </component>
@@ -499,11 +499,17 @@
       <option name="project" value="LOCAL" />
       <updated>1610855199222</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="LV feature files added">
+      <created>1610980153954</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1610980153954</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Auth added, not working but I'll get there. still hopeful" />
     <MESSAGE value="Auth added, not working but I'll get there o. still hopeful" />
     <MESSAGE value="Jesus take the wheel" />
     <MESSAGE value="Just breathe" />
@@ -528,7 +534,8 @@
     <MESSAGE value="Cucumber HTML reporting added. Test pass" />
     <MESSAGE value="Features folder updated" />
     <MESSAGE value="Negative scenario added to Search cases feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Negative scenario added to Search cases feature" />
+    <MESSAGE value="LV feature files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LV feature files added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -555,26 +562,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610855198519">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610980153085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610855198519" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1610857906022">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610980153085" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1611042428829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610857906022" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1610857906021">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611042428829" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1611042428829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610857906021" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1610857906021">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611042428829" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1611042428829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610857906021" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1610857906022">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611042428829" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1611042428829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610857906022" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611042428829" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -595,14 +602,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610855203281">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610980157724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610855203281" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610954288349">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610980157724" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1611029678630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610954288349" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1611029678630" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
