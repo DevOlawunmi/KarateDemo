@@ -11,6 +11,7 @@ Feature: Send chaser
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
     * def payload = {"ourReference":"189611/1637"}
     And request payload
+    * configure readTimeout = 60000
     When method post
     Then status 200
 
