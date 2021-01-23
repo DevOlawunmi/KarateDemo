@@ -30,6 +30,8 @@ Feature: Search cases
     When method Get
     Then status 200
 
+
+    # negative scenario
     Scenario: User cannot search for a case without reference
       Given path '/searchCases'
       And header Content-type = 'application/json'
