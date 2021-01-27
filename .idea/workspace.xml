@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="" />
+    <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Submit LBA Commercial PH">
+  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, LV Non-fault, private PH, private TP">
     <configuration name="Scenario: Full Instruction, Dispute, Commercial PH," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" />
@@ -61,6 +64,25 @@
       <option name="NAME_FILTER" value="^Full Instruction\, Dispute\, Commercial PH\,$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Dispute\, Commercial PH\,$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Dispute, Commercial PH," />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Full Instruction, LV Non-fault, private PH, private TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^Full Instruction\, LV Non\-fault\, private PH\, private TP$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, LV Non\-fault\, private PH\, private TP$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, LV Non-fault, private PH, private TP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -109,25 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit LBA Commercial TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^Submit LBA Commercial TP$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA Commercial TP$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA Commercial TP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Submit LBA Personal PH and TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" />
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, LV Non-fault, private PH, private TP" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA Commercial PH" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA Personal PH and TP" />
         <item itemvalue="JUnit.TestRunner.testParallel" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, Dispute, Commercial PH," />
-        <item itemvalue="Cucumber java.Scenario: Submit LBA Commercial TP" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Search cases successful">
-      <created>1603947196978</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603947196978</updated>
     </task>
     <task id="LOCAL-00004" summary="Vehicle details successfully displayed">
       <created>1603982956762</created>
@@ -539,11 +535,17 @@
       <option name="project" value="LOCAL" />
       <updated>1611378685796</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="LBA updated for Jenkins test">
+      <created>1611635216670</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1611635216671</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Vrn lookup pass" />
     <MESSAGE value="search cases pass" />
     <MESSAGE value="get client feature pass" />
     <MESSAGE value="chase lba feature added" />
@@ -568,7 +570,8 @@
     <MESSAGE value="General updates" />
     <MESSAGE value="General updates and tidying up" />
     <MESSAGE value="Scenario added to LBA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario added to LBA" />
+    <MESSAGE value="LBA updated for Jenkins test" />
+    <option name="LAST_COMMIT_MESSAGE" value="LBA updated for Jenkins test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -591,10 +594,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1611378685182">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1611635215784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611378685182" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611635215784" />
     <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1611378710157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -631,14 +634,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1611378690207">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1611635231776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611378690207" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1611378280440">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611635231776" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1611739408915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1611378280440" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1611739408915" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
