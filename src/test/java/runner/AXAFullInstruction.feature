@@ -1,4 +1,10 @@
-Scenario: Full Instruction, AXA, Total Loss, Private PH, Private TP, PH and TP driving
+Feature: Search cases
+  Background:
+
+    * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
+
+
+  Scenario: Full Instruction, AXA, Total Loss, Private PH, Private TP, PH and TP driving
 
 Given path '/full'
 And header Content-type = 'application/json'
