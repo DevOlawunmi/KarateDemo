@@ -24,3 +24,16 @@ Feature: Submit Full Instruction
     * configure readTimeout = 60000
     When method post
     Then status 200
+
+  Scenario: Full Instruction, Non fault, Total loss
+    Given path '/full'
+    And header Content-type = 'application/json'
+    And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
+    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"HTYI7Y78","bacs":"Ultima"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":30,"liabilityApportionmentThirdParty":70,"totalLossBreakdown":{"pav":6000,"storageAndRecovery":300,"policyExcess":250,"salvage":2000,"hireCharges":120,"miscellaneous":40},"comfirmOutlayOver10K":false,"accidentDate":"2019-08-11T23:00:00.000Z","policyholderTitle":"Mr","policyholderFirstName":"Y","policyholderLastName":"K","liabilityDecision":"Dispute","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":4210,"outlayTotalSeekRecovery":2947},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mrs","firstName":"J","lastName":"J"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"AXA INSURANCE UK PLC","reference":"56YT6IUBN","ripe":true}}
+    And request payload
+    * configure readTimeout = 60000
+    When method post
+    Then status 201
+
+
+
