@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AXAFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AXAFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,13 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Test runner feature file updated">
-      <created>1604461108345</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1604461108345</updated>
     </task>
     <task id="LOCAL-00013" summary="Test runner folder updated">
       <created>1604462293428</created>
@@ -549,11 +538,17 @@
       <option name="project" value="LOCAL" />
       <updated>1612354987158</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Axa full inst non fault updated 2">
+      <created>1612451475430</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1612451475430</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testrunner updated" />
     <MESSAGE value="convert feature added" />
     <MESSAGE value="user details feature file updated" />
     <MESSAGE value="Notes added to test runner" />
@@ -578,7 +573,8 @@
     <MESSAGE value="Dispute total loss scenario added to Zurich LBA" />
     <MESSAGE value="CLEAN UP" />
     <MESSAGE value="Axa full inst non fault updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Axa full inst non fault updated" />
+    <MESSAGE value="Axa full inst non fault updated 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Axa full inst non fault updated 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -601,26 +597,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612354986036">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612451474777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612354986036" />
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1612448290925">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612451474777" />
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1612451493535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612448290925" />
-    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1612448290925">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612451493535" />
+    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1612451493535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612448290925" />
-    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1612448290924">
+    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612451493535" />
+    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1612451493535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612448290924" />
-    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1612448290925">
+    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612451493535" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1612451493535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612448290925" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612451493535" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -641,14 +637,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612354990154">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612451479768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612354990154" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1612425122601">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612451479768" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1612511823381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1612425122601" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1612511823381" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
