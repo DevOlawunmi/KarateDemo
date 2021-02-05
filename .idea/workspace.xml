@@ -202,13 +202,6 @@
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
     </task>
-    <task id="LOCAL-00013" summary="Test runner folder updated">
-      <created>1604462293428</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1604462293428</updated>
-    </task>
     <task id="LOCAL-00014" summary="Config file added">
       <created>1604643933247</created>
       <option name="number" value="00014" />
@@ -545,11 +538,17 @@
       <option name="project" value="LOCAL" />
       <updated>1612451475430</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="scenario added to lba">
+      <created>1612526563378</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1612526563380</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="convert feature added" />
     <MESSAGE value="user details feature file updated" />
     <MESSAGE value="Notes added to test runner" />
     <MESSAGE value="Cucumber reporting dependency added to pom.xml" />
@@ -574,7 +573,8 @@
     <MESSAGE value="CLEAN UP" />
     <MESSAGE value="Axa full inst non fault updated" />
     <MESSAGE value="Axa full inst non fault updated 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Axa full inst non fault updated 2" />
+    <MESSAGE value="scenario added to lba" />
+    <option name="LAST_COMMIT_MESSAGE" value="scenario added to lba" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="84" key="#Feature:_userDetails_(1)" timestamp="1603882423244">
@@ -597,10 +597,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612451474777">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612526562436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612451474777" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612526562436" />
     <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1612451493535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -637,10 +637,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612451479768">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612526567124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612451479768" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612526567124" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1612511823381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
