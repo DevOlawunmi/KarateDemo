@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Submit LBA, Dispute, Total loss">
+  <component name="RunManager" selected="Cucumber java.Scenario: Submit LBA, Non-fault, liability agreed, repairs">
     <configuration name="Scenario: Full Instruction, LV dispute, Outlay &gt; 10K, Total loss,  private PH, Private TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" />
@@ -155,15 +150,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Tesco Non-fault, outlay &lt;10k" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Submit LBA, Non-fault, liability agreed, repairs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/submitLBAInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Tesco Non\-fault\, outlay \&lt;10k$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Tesco Non\-fault\, outlay \&lt;10k$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Tesco Non-fault, outlay &lt;10k" />
+      <option name="NAME_FILTER" value="^Submit LBA\, Non\-fault\, liability agreed\, repairs$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA\, Non\-fault\, liability agreed\, repairs$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA, Non-fault, liability agreed, repairs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Submit LBA, Non-fault, liability agreed, repairs" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA, Dispute, Total loss" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA, 50/50, dispute, liability agreed, total loss" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, LV dispute, Outlay &gt; 10K, Total loss,  private PH, Private TP" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, Non fault, Total loss" />
-        <item itemvalue="Cucumber java.Scenario: Tesco Non-fault, outlay &lt;10k" />
       </list>
     </recent_temporary>
   </component>
@@ -598,26 +593,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605382132679" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612783054050">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1612950948815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612783054050" />
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1612950870678">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612950948815" />
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1613043426512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612950870678" />
-    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1612950870678">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613043426512" />
+    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1613043426512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612950870678" />
-    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1612950870678">
+    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613043426512" />
+    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1613043426511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612950870678" />
-    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1612950870678">
+    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613043426511" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1613043426512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612950870678" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613043426512" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -638,14 +633,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612783058175">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1612950951946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612783058175" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1612944698588">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612950951946" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1613043258219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1612944698588" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1613043258219" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609831571729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
