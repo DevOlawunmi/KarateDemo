@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSearchCases.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Display all of the logged in user's cases">
+  <component name="RunManager" selected="Cucumber java.Scenario: Get Vehicle Details">
     <configuration name="Scenario: Display all of the logged in user's cases" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/searchCases.feature" />
@@ -93,15 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Full Instruction, Non fault, Total loss, Outlay&gt;10k, Private PH and TP, Additional info" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get Vehicle Details (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Full Instruction\, Non fault\, Total loss\, Outlay\&gt;10k\, Private PH and TP\, Additional info$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Non fault\, Total loss\, Outlay\&gt;10k\, Private PH and TP\, Additional info$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Non fault, Total loss, Outlay&gt;10k, Private PH and TP, Additional info" />
+      <option name="NAME_FILTER" value="^Get Vehicle Details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Vehicle Details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get Vehicle Details" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -112,9 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get Vehicle Details (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+    <configuration name="Scenario: Get Vehicle Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/lookupAddress.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Get Vehicle Details" />
         <item itemvalue="Cucumber java.Scenario: Display all of the logged in user's cases" />
         <item itemvalue="Cucumber java.Scenario: User can search for a specific case using your reference" />
         <item itemvalue="Cucumber java.Scenario: User can search for a specific case using our reference" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, Non fault, Total loss" />
-        <item itemvalue="Cucumber java.Scenario: Full Instruction, Non fault, Total loss, Outlay&gt;10k, Private PH and TP, Additional info" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Client cred oauth fail. To be updated">
-      <created>1609400367088</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1609400367088</updated>
     </task>
     <task id="LOCAL-00025" summary="Vrn lookup pass">
       <created>1609483614719</created>
@@ -545,11 +539,17 @@
       <option name="project" value="LOCAL" />
       <updated>1616665551575</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="All search cases scenarios passed">
+      <created>1616668504047</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1616668504048</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Socket timeout exception error again" />
     <MESSAGE value="Chaser feature updated" />
     <MESSAGE value="General updates" />
     <MESSAGE value="General updates and tidying up" />
@@ -574,37 +574,38 @@
     <MESSAGE value="AXA full instruction scenarios updated" />
     <MESSAGE value="Zurich full instruction scenarios updated" />
     <MESSAGE value="All AXA and Zurich scenarios passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="All AXA and Zurich scenarios passed" />
+    <MESSAGE value="All search cases scenarios passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All search cases scenarios passed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Project_Structure" timestamp="1610684805084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1610684805084" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1616665551011">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1616668503363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616665551011" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616668503363" />
     <state x="549" y="127" key="FileChooserDialogImpl" timestamp="1613709216111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613709216111" />
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1616668403357">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1616669459293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616668403357" />
-    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1616668403357">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616669459293" />
+    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1616669459293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616668403357" />
-    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1616668403357">
+    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616669459293" />
+    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1616669459293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616668403357" />
-    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1616668403357">
+    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616669459293" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1616669459293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616668403357" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616669459293" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -625,10 +626,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610342301259" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1616665573282">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1616668507257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616665573282" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616668507257" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1616557836942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
