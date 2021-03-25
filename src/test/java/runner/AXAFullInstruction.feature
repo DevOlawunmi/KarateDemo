@@ -3,7 +3,7 @@ Feature: Search cases
 
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
-
+#pass
   Scenario: Full Instruction, AXA, Non-Fault, Vehicle Repair, Comm PH, Comm TP,
 
 Given path '/full'
@@ -15,6 +15,8 @@ And header ocp-apim-subscription-key = '9365f10d32b74e78ace27cb278e96ec2'
 When method post
 Then status 200
 
+
+#pass
   Scenario: Full Instruction, AXA, Dispute,Outlay <10k, Vehicle Repair, Private PH and TP, both driving
 
     Given path '/full'
