@@ -11,6 +11,11 @@ Feature: Get vehicle details
     And request '{"vrn": "MK68OLE"}'
     When method POST
     Then status 200
-    #compare expected and actual response
-    And match response == {"make":"PIAGGIO","model":"ZIP 50"}
+     # the expected output has been saved on file result.json. this file will be read by the read function
+    * def expectedOutput = read('result.json')
+     #compare expected and actual response
+    And match response == expectedOutput
+
+
+
 
