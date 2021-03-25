@@ -11,5 +11,6 @@ Feature: Get vehicle details
     And request '{"vrn": "MK68OLE"}'
     When method POST
     Then status 200
+    #compare expected and actual response
     And match response == {"make":"PIAGGIO","model":"ZIP 50"}
 
