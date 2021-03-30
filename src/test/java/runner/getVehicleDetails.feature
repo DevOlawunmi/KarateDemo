@@ -12,9 +12,9 @@ Feature: Get vehicle details
     When method POST
     Then status 200
      # the expected output has been saved on file result.json. this file will be read by the read function
-    * def expectedOutput = read('result.json')
-     #compare expected and actual response
-    And match response == expectedOutput
+    * def expectedOutput = read('vehicleTestData.json')
+     #compare expected and actual response, where $ = response
+    And match $ == expectedOutput
 
 
 

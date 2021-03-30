@@ -11,3 +11,5 @@ Feature: Get address details
     And param countryCode = 'GB'
     When method GET
     Then status 200
+    * def expectedOutput = read('addressTestData.json')
+   And match $ == expectedOutput
