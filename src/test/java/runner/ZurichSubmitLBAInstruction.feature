@@ -2,7 +2,7 @@ Feature: Submit LBA
   Background:
 
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
-##pass
+#FAIL
     Scenario: Submit LBA, Dispute, Total loss
 
       Given path '/LBA'
@@ -15,13 +15,13 @@ Feature: Submit LBA
       Then status 200
 
 
-
+##PASS
   Scenario: Submit LBA, Non-fault, liability agreed, total loss
 
     Given path '/LBA'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"65677u6","bacs":"ZAC"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"excessWaived":false,"pav":2800,"pavLessSalvage":2400,"salvage":400,"policyExcess":340,"storageAndRecovery":0,"hireCharges":0,"miscellaneous":200},"comfirmOutlayOver10K":false,"accidentDate":"03/04/2021","policyholderTitle":"Mrs","policyholderFirstName":"J","policyholderLastName":"-","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":2400,"totalToRecover":2600,"customerUIL":340},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mr","firstName":"007","lastName":"@"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Admiral","reference":"76I876","ripe":true}}
+    * def payload = read('ZurichLBATotalLoss.json')
     And request payload
     * configure readTimeout = 60000
     When method post
