@@ -1,4 +1,4 @@
-Feature: Search cases
+Feature: Full Instruction
   Background:
 
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
