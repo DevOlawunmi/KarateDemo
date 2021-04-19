@@ -4,38 +4,26 @@ Feature: Submit Full Instruction
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
 
-  Scenario: Full Instruction, Non fault, Total loss, Outlay>10k, Private PH and TP, Additional info
+  Scenario: Full Instruction, Total Loss, Outlay>10k
 
-    #pass
+    #pass 19/04
     Given path '/full'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"GTFYYTYT09","bacs":"CHS"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"pav":16000,"storageAndRecovery":500,"policyExcess":500,"salvage":4000,"hireCharges":1000,"miscellaneous":800},"comfirmOutlayOver10K":true,"accidentDate":"2020-09-08T23:00:00.000Z","policyholderTitle":"Father","policyholderFirstName":"Mensah","policyholderLastName":"Ot","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":13800},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mr","firstName":"James","lastName":"Bond"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"additionalInformation":{"fileNotes":"A Tale of Two Cities (1859) is a historical novel by Charles Dickens."},"tpInsurer":{"litAvoid":true,"name":"Advantage Insurance Company Ltd","reference":"0I0IUUU3E","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"ML67OLA","make":"SUZUKI","model":"SX4 S-CROSS SZ-T BOOSTERJET A"}},"insVehicle":{"vehicle":{"matched":true,"vrn":"SK68OLE","make":"PEUGEOT","model":"2008 ALLURE PREMIUM"}},"polDetails":{"addressLookupCountry":"GB","address":{"line1":"45 Hilton Street North","town":"Manchester","postcode":"M7 2DH","readonly":true},"streetNumberOrBuildingName":"45","postalCode":"M7 2DH","matched":true,"policyholderPhone":"455678900099","policyholderEmail":"gtytt@mail.com"},"driverdetailsWasPolicyholder":{"isPolicyholderDriver":true},"driverdetailsWasThirdParty":{"isThirdPartyDriver":true},"accDetails":{"accidentLocation":"Queen's road","accidentCircumstances":"They were the best of times, they were the worst of times"}}
+    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"RFC/DJBP","bacs":"ZPC Vlocity"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"excessWaived":false,"pav":12000,"pavLessSalvage":11000,"pavNet":9900,"salvage":1000,"policyExcess":1100,"storageAndRecovery":0,"hireCharges":0,"miscellaneous":0},"comfirmOutlayOver10K":true,"accidentDateDay":"02","accidentDateMonth":"04","accidentDateYear":"2019","policyholderTitle":"Mr","policyholderFirstName":"Tony","policyholderLastName":"Montana","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":9900,"totalToRecover":11000,"customerUIL":1100},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mrs","firstName":"Rose","lastName":"Timms"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"additionalInformation":{},"tpInsurer":{"litAvoid":true,"name":"Admiral","reference":"QUU/OIOI/900","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"MA70OLU","make":"FORD","model":"FOCUS ST-LINE X TDCI"}},"insVehicle":{"vehicle":{"matched":true,"vrn":"YH70DBZ","make":"VOLKSWAGEN","model":"CADDY C20 STARTLINE TDI"}},"polDetails":{"addressLookupCountry":"GB","address":{"line1":"90 Sten Close","town":"Enfield","postcode":"EN3 6WX","readonly":true},"streetNumberOrBuildingName":"90","postalCode":"EN3 6WX","matched":true,"policyholderPhone":"796776634","policyholderEmail":"try_ii@yy.com"},"driverdetailsWasPolicyholder":{"isPolicyholderDriver":true},"driverdetailsWasThirdParty":{"isThirdPartyDriver":true},"accDetails":{"accidentLocation":"Somewhere in Manchester;oikij","accidentCircumstances":"tttui uiu uy yyy  y"}}
     And request payload
     * configure readTimeout = 60000
     When method post
     Then status 200
 
 
-## payload missing
-  Scenario: Full Instruction, Dispute, Commercial PH,
+#pass 19/04
+  Scenario: Full Instruction, Dispute, Total Loss, Outlay<10K
     Given path '/full'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    * def payload =
+    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"RFCDJBP","bacs":"ZPC Vlocity"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"excessWaived":false,"pav":12000,"pavLessSalvage":11000,"pavNet":9900,"salvage":1000,"policyExcess":1100,"storageAndRecovery":0,"hireCharges":0,"miscellaneous":0},"comfirmOutlayOver10K":false,"accidentDateDay":"02","accidentDateMonth":"04","accidentDateYear":"2019","policyholderTitle":"Mr","policyholderFirstName":"Tony","policyholderLastName":"Montana","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":9900,"totalToRecover":9900,"customerUIL":1100},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mrs","firstName":"Rose","lastName":"Timms"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"additionalInformation":{},"tpInsurer":{"litAvoid":true,"name":"Admiral","reference":"QUU/OIOI/900","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"MA70OLU","make":"FORD","model":"FOCUS ST-LINE X TDCI"}},"insVehicle":{"vehicle":{"matched":true,"vrn":"YH70DBZ","make":"VOLKSWAGEN","model":"CADDY C20 STARTLINE TDI"}},"polDetails":{"addressLookupCountry":"GB","address":{"line1":"90 Sten Close","town":"Enfield","postcode":"EN3 6WX","readonly":true},"streetNumberOrBuildingName":"90","postalCode":"EN3 6WX","matched":true,"policyholderPhone":"796776634","policyholderEmail":"try_ii@yy.com"},"driverdetailsWasPolicyholder":{"isPolicyholderDriver":true},"driverdetailsWasThirdParty":{"isThirdPartyDriver":true},"accDetails":{"accidentLocation":"Simiuiul;oikij","accidentCircumstances":"tttui uiu uy yyy  y"}}
     And request payload
-    * configure readTimeout = 60000
-    When method post
-    Then status 200
-
-
-#pass
-  Scenario: Full Instruction, Non fault, Total loss
-    Given path '/full'
-    And header Content-type = 'application/json'
-    And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-    * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"Ola.Ajibola@h-f.co.uk","overrideHandlerDetails":false,"reference":"TSYHTI9087","bacs":"Genz"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"personal","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"pav":10000,"storageAndRecovery":200,"policyExcess":1000,"salvage":2000,"hireCharges":300,"miscellaneous":300},"comfirmOutlayOver10K":false,"accidentDate":"2021-01-05T00:00:00.000Z","policyholderTitle":"Sir","policyholderFirstName":"Alan","policyholderLastName":"Q","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":7800},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Miss","firstName":"Denise","lastName":"Jones"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"additionalInformation":{"fileNotes":"This is to test the file notes"},"tpInsurer":{"litAvoid":true,"name":"AXA INSURANCE UK PLC","reference":"FDRE5R6","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"SK67OLA","make":"VAUXHALL","model":"ASTRA ELITE TURBO S/S AUTO"}},"polDetails":{"addressLookupCountry":"GB","address":{"line1":"57 Higher House Close","town":"Oldham","postcode":"OL9 8LP","readonly":true},"streetNumberOrBuildingName":"57","postalCode":"OL9 8LP","matched":true,"policyholderPhone":"98897980","policyholderEmail":"gttygbn@mailer.com"},"driverdetailsWasPolicyholder":{"isPolicyholderDriver":true},"driverdetailsWasThirdParty":{"isThirdPartyDriver":true},"accDetails":{"accidentLocation":"657890","accidentCircumstances":"trfgyubni tyuoi  67iuiop"}}
-    And request payload 
     * configure readTimeout = 60000
     When method post
     Then status 200
