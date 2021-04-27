@@ -2,13 +2,13 @@ Feature: Submit LBA
   Background:
 
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
-#FAIL
-    Scenario: Submit LBA, Dispute, Total loss
+#PASS
+    Scenario: Submit LBA, Dispute, Vehicle repairs
 
       Given path '/LBA'
       And header Content-type = 'application/json'
       And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
-      * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"GFCRDYTU","bacs":"Ultima"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"commercial","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"totalLossBreakdown":{"excessWaived":false,"pav":5000,"pavLessSalvage":5000,"salvage":0,"policyExcess":500,"storageAndRecovery":0,"hireCharges":500,"miscellaneous":0},"comfirmOutlayOver10K":false,"accidentDateDay":"31","accidentDateMonth":"12","accidentDateYear":"2020","policyholderCommercialName":"Dallas Ltd","liabilityDecision":"Non Fault","liabilityAgreed":true,"outlayType":"totalLoss","outlayAmount":5000,"totalToRecover":5500,"customerUIL":500},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Mr","firstName":"Felix","lastName":"Thecat"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Admiral","reference":"UHKJYUYUKKJ","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"MK67EKU","make":"SKODA","model":"OCTAVIA VRS 245 TSI S-A"}}}
+      * def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"TGTRPOYY7U","bacs":"Zeus"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"commercial","liabilityApportionmentPolicyholder":0,"liabilityApportionmentThirdParty":100,"repairBreakdown":{"excessWaived":false,"repairsGross":2000,"repairsNet":1880,"policyExcess":120,"hireCharges":80,"miscellaneous":100},"comfirmOutlayOver10K":false,"accidentDateDay":"28","accidentDateMonth":"12","accidentDateYear":"2019","policyholderCommercialName":"Zuma Ent","liabilityDecision":"Dispute","liabilityAgreed":false,"outlayType":"repairs","outlayAmount":1880,"totalToRecover":2060,"customerUIL":120},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Miss","firstName":"Honey","lastName":"Day"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Admiral","reference":"TT/09/UYT/MN","ripe":false},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"NX12ORS","make":"FORD","model":"TRANSIT 115 T350M RWD"}}}
       And request payload
       * configure readTimeout = 60000
       When method post

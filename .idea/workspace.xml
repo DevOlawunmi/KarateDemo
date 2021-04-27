@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, Total Loss, Outlay&gt;10K">
+  <component name="RunManager" selected="Cucumber java.Scenario: LBA, Total loss, excess waived">
     <configuration name="Scenario: Full Instruction, Total Loss, Outlay&gt;10K" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AXAFullInstruction.feature" />
@@ -64,25 +67,6 @@
       <option name="NAME_FILTER" value="^Full Instruction\, Total Loss\, Outlay\&gt;10K$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Total Loss\, Outlay\&gt;10K$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Total Loss, Outlay&gt;10K" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Full Instruction, Total Loss, Outlay&gt;10k" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Karate" />
-      <option name="NAME_FILTER" value="^Full Instruction\, Total Loss\, Outlay\&gt;10k$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Total Loss\, Outlay\&gt;10k$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Total Loss, Outlay&gt;10k" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -112,15 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit LBA, 50/50, dispute, total loss, TPI email known" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get Vehicle Details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/getVehicleDetails.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Submit LBA\, 50\/50\, dispute\, total loss\, TPI email known$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA\, 50\/50\, dispute\, total loss\, TPI email known$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA, 50/50, dispute, total loss, TPI email known" />
+      <option name="NAME_FILTER" value="^Get Vehicle Details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Vehicle Details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get Vehicle Details" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -131,15 +115,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit LBA, Dispute, Total loss" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: LBA, Total loss, excess waived" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Karate" />
+      <option name="NAME_FILTER" value="^LBA\, Total loss\, excess waived$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^LBA\, Total loss\, excess waived$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: LBA, Total loss, excess waived" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Submit LBA, Dispute, Vehicle repairs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Submit LBA\, Dispute\, Total loss$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA\, Dispute\, Total loss$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA, Dispute, Total loss" />
+      <option name="NAME_FILTER" value="^Submit LBA\, Dispute\, Vehicle repairs$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA\, Dispute\, Vehicle repairs$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA, Dispute, Vehicle repairs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -171,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Full Instruction, Total Loss, Outlay&gt;10K" />
-        <item itemvalue="Cucumber java.Scenario: Full Instruction, Total Loss, Outlay&gt;10k" />
+        <item itemvalue="Cucumber java.Scenario: LBA, Total loss, excess waived" />
         <item itemvalue="Cucumber java.Scenario: Submit LBA, Non-fault, liability agreed, total loss" />
-        <item itemvalue="Cucumber java.Scenario: Submit LBA, Dispute, Total loss" />
-        <item itemvalue="Cucumber java.Scenario: Submit LBA, 50/50, dispute, total loss, TPI email known" />
+        <item itemvalue="Cucumber java.Scenario: Submit LBA, Dispute, Vehicle repairs" />
+        <item itemvalue="Cucumber java.Scenario: Get Vehicle Details" />
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, Total Loss, Outlay&gt;10K" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Testrunner updated">
-      <created>1610117787766</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1610117787767</updated>
     </task>
     <task id="LOCAL-00036" summary="convert feature added">
       <created>1610169674634</created>
@@ -545,14 +541,20 @@
       <option name="project" value="LOCAL" />
       <updated>1619018374672</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Aviva payload added">
+      <created>1619085737323</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1619085737324</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.json" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tesco FI pass" />
     <MESSAGE value="Dispute repair scenario added to AXA" />
     <MESSAGE value="Dispute total loss scenario added to Zurich LBA" />
     <MESSAGE value="CLEAN UP" />
@@ -577,65 +579,46 @@
     <MESSAGE value="Aviva full instruction feature added" />
     <MESSAGE value="Zurich schema updated" />
     <MESSAGE value="AXA full instruction updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="AXA full instruction updated" />
+    <MESSAGE value="Aviva payload added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aviva payload added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Project_Structure" timestamp="1610684805084">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1610684805084" />
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617098919788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617098919788" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1619018373747">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1619085736611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619018373747" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619085736611" />
     <state x="549" y="127" key="FileChooserDialogImpl" timestamp="1613709216111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613709216111" />
-    <state width="1477" height="152" key="GridCell.Tab.0.bottom" timestamp="1619018384948">
+    <state width="1477" height="152" key="GridCell.Tab.0.bottom" timestamp="1619512996176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619018384948" />
-    <state width="1477" height="152" key="GridCell.Tab.0.center" timestamp="1619018384948">
+    <state width="1477" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619512996176" />
+    <state width="1477" height="152" key="GridCell.Tab.0.center" timestamp="1619512996176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619018384948" />
-    <state width="1477" height="152" key="GridCell.Tab.0.left" timestamp="1619018384948">
+    <state width="1477" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619512996176" />
+    <state width="1477" height="152" key="GridCell.Tab.0.left" timestamp="1619512996176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619018384948" />
-    <state width="1477" height="152" key="GridCell.Tab.0.right" timestamp="1619018384948">
+    <state width="1477" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619512996176" />
+    <state width="1477" height="152" key="GridCell.Tab.0.right" timestamp="1619512996176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619018384948" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1610685799723">
+    <state width="1477" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619512996176" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1619085740453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610685799723" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1610685799723">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619085740453" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1619505173248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610685799723" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1610685799723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610685799723" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1610685799723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610685799723" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1619018377107">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1619018377107" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1619083289058">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619083289058" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619505173248" />
     <state x="209" y="68" key="new project wizard" timestamp="1616559304538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

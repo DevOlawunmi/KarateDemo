@@ -4,7 +4,7 @@ Feature: Full Instruction
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
 #pass
-  Scenario: Full Instruction, AXA, Non-Fault, Vehicle Repair, Comm PH, Comm TP,
+  Scenario: Full Instruction, Non-Fault, Vehicle Repair, Comm PH, Comm TP,
 
     Given path '/full'
     And header Content-type = 'application/json'
