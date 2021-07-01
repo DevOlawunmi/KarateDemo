@@ -5,12 +5,12 @@ Feature: Search cases
     * url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'
 
 
-Scenario: Full Instruction, Tesco, Dispute, Total Loss, Private PH and TP, PH and TP driving
+Scenario: Full Instruction, Liability agreed, Vehicle repairs,  PH and TP driving
 
 Given path '/full'
 And header Content-type = 'application/json'
 And header ocp-apim-subscription-key = '54d0bbc1045345caa94ab2cf7f2af69b'
-* def payload =
+* def payload = 
 And request payload
 * configure readTimeout = 70000
 When method post

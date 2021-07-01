@@ -4,6 +4,11 @@
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +60,16 @@
       <recent name="C:\workspace\Karate\src\test\java\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, Non-Fault, Vehicle Repair">
-    <configuration name="Scenario: Full Instruction, Broker comms,  Non-Fault, Vehicle Repair, Comm PH, Comm TP," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: LBA, Private vs Private">
+    <configuration name="Scenario: Full Instruction, Comm PH, Outlay &gt;10k, Total loss" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Full Instruction\, Broker comms\,  Non\-Fault\, Vehicle Repair\, Comm PH\, Comm TP\,$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Broker comms\,  Non\-Fault\, Vehicle Repair\, Comm PH\, Comm TP\,$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Broker comms,  Non-Fault, Vehicle Repair, Comm PH, Comm TP," />
+      <option name="NAME_FILTER" value="^Full Instruction\, Comm PH\, Outlay \&gt;10k\, Total loss$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Comm PH\, Outlay \&gt;10k\, Total loss$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Comm PH, Outlay &gt;10k, Total loss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -75,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Full Instruction, Non-Fault, Vehicle Repair" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Full Instruction, Liability agreed, Vehicle repairs,  PH and TP driving" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Full Instruction\, Non\-Fault\, Vehicle Repair$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Non\-Fault\, Vehicle Repair$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Non-Fault, Vehicle Repair" />
+      <option name="NAME_FILTER" value="^Full Instruction\, Liability agreed\, Vehicle repairs\,  PH and TP driving$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Liability agreed\, Vehicle repairs\,  PH and TP driving$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Liability agreed, Vehicle repairs,  PH and TP driving" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -132,15 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: LBA, Total loss, excess waived" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: LBA, Private vs Private" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^LBA\, Total loss\, excess waived$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^LBA\, Total loss\, excess waived$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: LBA, Total loss, excess waived" />
+      <option name="NAME_FILTER" value="^LBA\, Private vs Private$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^LBA\, Private vs Private$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: LBA, Private vs Private" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -151,15 +156,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit LBA, 50/50, dispute, liability agreed, total loss" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Personal PH and TP, TPI details manually entered" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Karate" />
-      <option name="NAME_FILTER" value="^Submit LBA\, 50\/50\, dispute\, liability agreed\, total loss$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA\, 50\/50\, dispute\, liability agreed\, total loss$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA, 50/50, dispute, liability agreed, total loss" />
+      <option name="NAME_FILTER" value="^Personal PH and TP\, TPI details manually entered$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Personal PH and TP\, TPI details manually entered$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Personal PH and TP, TPI details manually entered" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -172,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Full Instruction, Non-Fault, Vehicle Repair" />
-        <item itemvalue="Cucumber java.Scenario: Full Instruction, Broker comms,  Non-Fault, Vehicle Repair, Comm PH, Comm TP," />
+        <item itemvalue="Cucumber java.Scenario: LBA, Private vs Private" />
+        <item itemvalue="Cucumber java.Scenario: Personal PH and TP, TPI details manually entered" />
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, Liability agreed, Vehicle repairs,  PH and TP driving" />
         <item itemvalue="Cucumber java.Scenario: LBA, Comm vs Comm" />
-        <item itemvalue="Cucumber java.Scenario: LBA, Total loss, excess waived" />
-        <item itemvalue="Cucumber java.Scenario: Submit LBA, 50/50, dispute, liability agreed, total loss" />
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, Comm PH, Outlay &gt;10k, Total loss" />
       </list>
     </recent_temporary>
   </component>
@@ -202,13 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Notes added to test runner">
-      <created>1610257197303</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1610257197303</updated>
     </task>
     <task id="LOCAL-00039" summary="Cucumber reporting dependency added to pom.xml">
       <created>1610340349402</created>
@@ -546,14 +544,20 @@
       <option name="project" value="LOCAL" />
       <updated>1621856225741</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Aviva full instruction payload updated">
+      <created>1622029012089</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1622029012090</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.json" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CLEAN UP" />
     <MESSAGE value="Axa full inst non fault updated" />
     <MESSAGE value="Axa full inst non fault updated 2" />
     <MESSAGE value="scenario added to lba" />
@@ -578,45 +582,42 @@
     <MESSAGE value="Aviva payload added" />
     <MESSAGE value="Aviva LBA feature added" />
     <MESSAGE value="Aviva LBA no TPI scenario added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aviva LBA no TPI scenario added" />
+    <MESSAGE value="Aviva full instruction payload updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aviva full instruction payload updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617098919788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617098919788" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1621856224627">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1622029011185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621856224627" />
-    <state x="549" y="127" key="FileChooserDialogImpl" timestamp="1613709216111">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622029011185" />
+    <state width="1477" height="157" key="GridCell.Tab.0.bottom" timestamp="1625156836153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613709216111" />
-    <state width="1477" height="157" key="GridCell.Tab.0.bottom" timestamp="1622024860806">
+    <state width="1477" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
+    <state width="1477" height="157" key="GridCell.Tab.0.center" timestamp="1625156836153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622024860806" />
-    <state width="1477" height="157" key="GridCell.Tab.0.center" timestamp="1622024860806">
+    <state width="1477" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
+    <state width="1477" height="157" key="GridCell.Tab.0.left" timestamp="1625156836152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622024860806" />
-    <state width="1477" height="157" key="GridCell.Tab.0.left" timestamp="1622024860806">
+    <state width="1477" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625156836152" />
+    <state width="1477" height="157" key="GridCell.Tab.0.right" timestamp="1625156836153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622024860806" />
-    <state width="1477" height="157" key="GridCell.Tab.0.right" timestamp="1622024860806">
+    <state width="1477" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1622029015555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622024860806" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1621856228710">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622029015555" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1625156759956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621856228710" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1622023259830">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1622023259830" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625156759956" />
     <state x="209" y="68" key="new project wizard" timestamp="1616559304538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
