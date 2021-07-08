@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="186ba126-3578-427c-b035-224f6a71a08a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/AvivaLBA.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/LVSubmitFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TescoFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichLBATotalLoss.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichLBAOutlayGreaterthan10k.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ZurichSubmitLBAInstruction.feature" afterDir="false" />
     </list>
@@ -207,13 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602494934991</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Cucumber reporting dependency added to pom.xml">
-      <created>1610340349402</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1610340349402</updated>
     </task>
     <task id="LOCAL-00040" summary="Test runner class updated">
       <created>1610687625927</created>
@@ -551,14 +540,20 @@
       <option name="project" value="LOCAL" />
       <updated>1622029012090</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Aviva LBA updated">
+      <created>1625157418560</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1625157418561</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.json" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Axa full inst non fault updated" />
     <MESSAGE value="Axa full inst non fault updated 2" />
     <MESSAGE value="scenario added to lba" />
     <MESSAGE value="50/50, dispute, liability agreed, total loss scenario added to lba" />
@@ -583,44 +578,41 @@
     <MESSAGE value="Aviva LBA feature added" />
     <MESSAGE value="Aviva LBA no TPI scenario added" />
     <MESSAGE value="Aviva full instruction payload updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aviva full instruction payload updated" />
+    <MESSAGE value="Aviva LBA updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aviva LBA updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617098919788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="508" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1617098919788" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1622029011185">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1625157417585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622029011185" />
-    <state width="1477" height="157" key="GridCell.Tab.0.bottom" timestamp="1625156836153">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625157417585" />
+    <state width="1477" height="157" key="GridCell.Tab.0.bottom" timestamp="1625157431922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
-    <state width="1477" height="157" key="GridCell.Tab.0.center" timestamp="1625156836153">
+    <state width="1477" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625157431922" />
+    <state width="1477" height="157" key="GridCell.Tab.0.center" timestamp="1625157431922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
-    <state width="1477" height="157" key="GridCell.Tab.0.left" timestamp="1625156836152">
+    <state width="1477" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625157431922" />
+    <state width="1477" height="157" key="GridCell.Tab.0.left" timestamp="1625157431922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625156836152" />
-    <state width="1477" height="157" key="GridCell.Tab.0.right" timestamp="1625156836153">
+    <state width="1477" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625157431922" />
+    <state width="1477" height="157" key="GridCell.Tab.0.right" timestamp="1625157431922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1477" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625156836153" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1622029015555">
+    <state width="1477" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625157431922" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1625157422037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622029015555" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1625156759956">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625157422037" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1625733016155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625156759956" />
-    <state x="209" y="68" key="new project wizard" timestamp="1616559304538">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1616559304538" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625733016155" />
   </component>
 </project>
